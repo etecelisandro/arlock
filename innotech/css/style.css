@@ -28,13 +28,7 @@ header {
 }
 
 /* ids e classes */
-#wpp {
-  color: #06d755;
-  font-size: 60px;
-  position: fixed;
-  left: 35px;
-  bottom: 30px;
-}
+
 
 /* ----------------------- Menu ------------------------*/
 .navbar {
