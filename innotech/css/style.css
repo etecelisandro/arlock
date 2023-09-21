@@ -16,6 +16,7 @@ body {
   overflow-x: hidden;
 }
 
+
 header {
   background-color: #000;
   width: 100%;
@@ -28,13 +29,7 @@ header {
 }
 
 /* ids e classes */
-#wpp {
-  color: #06d755;
-  font-size: 60px;
-  position: fixed;
-  left: 35px;
-  bottom: 30px;
-}
+
 
 /* ----------------------- Menu ------------------------*/
 .navbar {
@@ -90,9 +85,11 @@ header {
 
 #fotoarlock {
   border-radius: 50%;
-  width: 400px;
+  width: 400px; 
+  margin: 100px;
+  margin-left: 5px;
   box-shadow: 8px 7px 5px -3px rgba(20, 20, 20, 0.6);
-  padding: 100px;
+  padding: 10px;
 }
 
 #sobre {
@@ -135,9 +132,11 @@ header {
 
 #fotoarlock2 {
   border-radius: 50%;
-  width: 400px;
+  width: 400px; 
+  margin: 100px;
+  margin-left: 5px;
   box-shadow: 8px 7px 5px -3px rgba(20, 20, 20, 0.6);
-  padding: 100px;
+  padding: 10px;
 }
 
 #sobrearlock {
