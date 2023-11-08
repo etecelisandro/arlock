@@ -28,6 +28,7 @@ function Star() {
     this.x = Math.random() * stars.width;
     this.y = Math.random() * stars.height;
     this.z = Math.random() * stars.width;
+    
 
     this.move = function() {
         this.z -= starsParams.speed;
@@ -54,6 +55,7 @@ function Star() {
 
 // setup <canvas>, create all the starts
 function setupStars() {
+    
     screen = {
         w: window.innerWidth,
         h: window.innerHeight,
@@ -75,6 +77,7 @@ function updateStars() {
     starsElements.forEach(function (s) {
         s.show();
         s.move();
+    
     });
     window.requestAnimationFrame(updateStars);
 }
